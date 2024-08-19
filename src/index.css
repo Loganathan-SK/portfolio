@@ -11,8 +11,6 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 2rem;
   background-color: #1d0433;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%237616DD'/%3E%3Cstop offset='1' stop-color='%231D0433'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%2318E0FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%2318E0FF' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
@@ -38,26 +36,28 @@ a.active {
 
 /*App CSS - Starts*/
 .app {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .column {
-  position: absolute;
-  top: 0;
-  bottom: 0;
   padding: 20px;
 }
 
 .column-70 {
-  width: 69%;
-  height: 633px;
-  z-index: 1;
+  width: 71%;
+  min-height: 633px;
+  flex: 2;
+  order: 2;
 }
 
 .column-30 {
-  width: 27%;
-  right: 0; 
-  z-index: 2;
+  max-width: 27%;
+  min-height: 633px;
+  flex: 1;
+  order: 1;
 }
 
 /*Profile CSS - Start*/
@@ -66,7 +66,7 @@ a.active {
   font-family: 'Arial', sans-serif;
   color: #f0f0f0; 
   padding: 1rem; 
-  height: 633px;
+  min-height: 633px;
   border-radius: 10px;
   max-width: 600px;
   margin: 0 auto;
@@ -74,11 +74,12 @@ a.active {
 
 #profile img {
   width: 150px; 
-  height: 180px; 
+  min-height: 180px; 
   border-radius: 50%;
   object-fit: cover;
   display: block;
   margin: 0 auto 1rem;
+  max-width: 100%;
 }
 
 #profile h3, h4, ul {
@@ -104,10 +105,11 @@ a.active {
 
 /*Main CSS - Start*/
 .main {
+  max-width: 100%;
   padding: 1rem;
   color: #f0f0f0;
   background: linear-gradient(180deg, #3e2a60 0%, #321061 100%);
-  height: 633px;
+  min-height: 633px;
   border-radius: 10px;
 }
 
@@ -137,29 +139,30 @@ a.active {
   border: 2px solid white;
   border-radius: 15px;
   margin-top: 1rem;
-  height: 84%;
+  min-height: 545px;
 }
 
 /*Education CSS - Starts*/
 .block-div {
   display: flex;
   margin-left: 10rem;
+  flex-wrap: wrap;
 }
 
 #block {
   flex: 1;
-  width: 50%;
+  max-width: 50%;
   box-sizing: border-box;
   padding: 10px; 
 }
 
 #education table {
-  width: 94%; 
-  margin-top: 2rem; 
-  margin-left: 35px;
+  max-width: 100%; 
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
   border-collapse: collapse;
-  border: 2px solid white; 
-  border-radius: 15px;
+  border: 2px solid white;
   font-weight: 500;
 }
 
@@ -183,7 +186,7 @@ a.active {
 .project h3 {
   background-color: white;
   color: #1b082f;
-  width: 96%;
+  max-width: 96%;
   padding: 3px 0 3px 10px;
   border-radius: 2px;
 }
@@ -202,7 +205,7 @@ a.active {
 
 .height2 h5 {
   text-align: justify;
-  width: 96%;
+  max-width: 96%;
 }
 
 .height3{
@@ -214,7 +217,7 @@ a.active {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 20px;
-  width: 97%;
+  max-width: 97%;
   margin-bottom: 10px;
   margin-top: -5px;
 }
@@ -237,81 +240,33 @@ a.active {
 }
 
 /*Certification CSS - Starts*/
-.grid-image {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  padding: 20px;
-  width: 96%;
+
+#certification {
+  margin-left: 2.6rem;
 }
 
-.grid-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.frame {
-  border: 2px solid #ccc;
-  padding: 10px;
-  text-align: center;
-  width: 100%;
-  max-width: 250px;
-}
-
-.frame img { 
-  width: 100%;
-  max-width: 300px;
-  height: 150px; 
-  object-fit: cover;
-}
-
-.frame h5 {
-  margin-top: 10px;
-  text-align: left;
+#h3{
   background-color: white;
   color: #1b082f;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-.frame h4{
-  margin-top: 10px;
-  text-align: left;
-  background-color: white;
-  color: #1b082f;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-#verify{
-  text-align: center;
-}
-
-#additional {
-  margin-left: 1rem;
-  line-height: 2rem;
-  margin-top: -20px;
-}
-
-#additional h3 {
-  background-color: white;
-  color: #1b082f;
-  width: 98%;
+  max-width: 96%;
   padding: 3px 0 3px 10px;
   border-radius: 2px;
 }
 
+#center{
+  text-align: center;
+}
+
 /*Skills CSS - Starts*/
 #skills{
-  margin-left: 2.2rem;
+  margin-left: 2.6rem;
   line-height: 2rem;
 }
 
 #skills h3 {
   background-color: white;
   color: #1b082f;
-  width: 98%;
+  max-width: 96%;
   padding: 3px 0 3px 10px;
   border-radius: 2px;
 }
@@ -345,29 +300,22 @@ a.active {
   border-radius: 2px;
 }
 
-@media (max-width: 480px) {
-  #profile {
-    padding: 0.5rem;
+@media (max-width: 800px) {
+  .app {
+    flex-direction: column;
   }
 
-  #profile img {
-    width: 100px; 
-    height: 120px;
+  .left-column {
+    order: 2;
   }
 
-  #profile h3 {
-    font-size: 1.2rem;
+  .right-column {
+    order: 1; 
   }
 
-  #profile h4 {
-    font-size: 1rem;
-  }
-
-  #contact h5 {
-    font-size: 0.8rem;
-  }
-
-  #contact button {
-    padding: 0.3rem 0.6rem;
+  .column {
+    width: 100%;
+    max-width: 100%;
+    min-height: auto; 
   }
 }
