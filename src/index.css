@@ -48,21 +48,19 @@ a.active {
 
 .column-70 {
   width: 71%;
-  min-height: 633px;
   flex: 2;
   order: 2;
 }
 
 .column-30 {
   max-width: 27%;
-  min-height: 633px;
   flex: 1;
   order: 1;
 }
 
 /*Profile CSS - Start*/
 #profile {
-  background: linear-gradient(180deg, #3e2a60 0%, #321061 100%);
+  background-color: #321061;
   font-family: 'Arial', sans-serif;
   color: #f0f0f0; 
   padding: 1rem; 
@@ -75,7 +73,7 @@ a.active {
 #profile img {
   width: 150px; 
   min-height: 180px; 
-  border-radius: 50%;
+  border-radius: 5px;
   object-fit: cover;
   display: block;
   margin: 0 auto 1rem;
@@ -108,7 +106,7 @@ a.active {
   max-width: 100%;
   padding: 1rem;
   color: #f0f0f0;
-  background: linear-gradient(180deg, #3e2a60 0%, #321061 100%);
+  background-color: #321061;
   min-height: 633px;
   border-radius: 10px;
 }
@@ -145,15 +143,23 @@ a.active {
 /*Education CSS - Starts*/
 .block-div {
   display: flex;
-  margin-left: 10rem;
   flex-wrap: wrap;
 }
 
-#block {
+#block1 {
   flex: 1;
   max-width: 50%;
   box-sizing: border-box;
   padding: 10px; 
+  margin-left: 2rem;
+}
+#block2 {
+  flex: 1;
+  max-width: 50%;
+  box-sizing: border-box;
+  padding: 10px; 
+  text-align: right;
+  margin-right: 2rem;
 }
 
 #education table {
@@ -162,7 +168,6 @@ a.active {
   margin-left: auto;
   margin-right: auto;
   border-collapse: collapse;
-  border: 2px solid white;
   font-weight: 500;
 }
 
@@ -172,10 +177,6 @@ a.active {
   text-align: center; 
   background-color: white;
   color: #1b082f;
-}
-
-#education tr:hover {
-  background-color: #ddd;
 }
 
 /*Project CSS - Starts*/
@@ -251,6 +252,7 @@ a.active {
   max-width: 96%;
   padding: 3px 0 3px 10px;
   border-radius: 2px;
+  font-size: 18px;
 }
 
 #center{
@@ -267,14 +269,17 @@ a.active {
   background-color: white;
   color: #1b082f;
   max-width: 96%;
-  padding: 3px 0 3px 10px;
   border-radius: 2px;
+  padding: 3px 0 3px 10px;
 }
 
 /*Personal Info CSS - Starts*/
-#personal{
+#info{
+  margin-left: 2.6rem;
   width: 93%;
-  margin-left: 2.5rem;
+}
+#personal{
+  width: 100%;
   font-weight: bold;
 }
 
@@ -283,16 +288,12 @@ a.active {
   padding: 5px;
 }
 
-#about{
-  margin-left: 2.5rem;
-  margin-right: 2rem;
-}
-
-#about h4{
+#info h4{
   text-align: justify;
+  font-weight: 300;
 }
 
-#about h3{
+#info h3{
   background-color: white;
   color: #1b082f;
   width: 99%;
@@ -317,5 +318,150 @@ a.active {
     width: 100%;
     max-width: 100%;
     min-height: auto; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .column{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #profile {
+    width: 90%;
+    margin: auto;
+  }
+  #profile h3, #course{
+    font-size: medium;
+    text-align: center;
+  }
+  #profile h4{
+    font-size: 14px;
+  }
+  #contact h5{
+    font-size: 12px;
+    line-height: 1.5rem;
+  }
+  #profile li{
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+  .main{
+    width: 90%;
+    margin: auto;
+  }
+  .main button {
+    font-size: 6px;
+  }
+  .block-div {
+    margin-top: -20px;
+    font-size: 6px;
+  }
+  table{
+    width: 90%;
+  }
+  table, th, td {
+      font-size: 10px;
+      display: block;
+  }
+  table tr {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  table th {
+      text-align: right;
+      padding-right: 20px;
+      position: relative;
+  }
+
+  table td {
+      text-align: center;
+      padding-left: 20px;
+      position: relative;
+  }
+
+  table th::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      font-weight: bold;
+  }
+
+  table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      font-weight: bold;
+  }
+  .project {
+    margin-left: 0.5rem;
+    line-height: 1rem;
+  }
+  .project h3 {
+    width: 94%;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .project h4 {
+    font-size: 9px;
+  }
+  .project h5 {
+    font-size: 8px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  #certification {
+    margin-left: 0.5rem;
+    line-height: 1rem;
+  }
+  #h3{
+    width: 94%;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  #certification h3 {
+    font-size: 9px;
+  }
+  #certification h5 {
+    font-size: 8px;
+  }
+  #skills{
+    margin-left: 0.5rem;
+    line-height: 1rem;
+    width: 95%;
+  }
+  #skills h3{
+    font-size: 10px;
+  }
+  #skills li{
+    font-size: 9px;
+    line-height: 2rem;
+  }
+  #info{
+    margin-left: 0.5rem;
+    width: 100%;
+  }
+  #info h3{
+    font-size: 10px;
+    width: 91%;
+  }
+  #info h4{
+    font-size: 9px;
+    width: 93%;
+  }
+  #personal{
+    width: 93%;
+    font:bold
+  }
+  #personal td {
+    font-size: 10px;
   }
 }

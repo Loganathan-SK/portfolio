@@ -11,7 +11,7 @@ export default function Profile(){
         <hr />
         
 		<h3>Loganathan Ragupathi</h3>
-		<h4>B.E - Computer Science and Engineering</h4>
+		<h4 id="course">B.E - Computer Science and Engineering</h4>
         <hr />
         
         <h4>Area Of Interest</h4>

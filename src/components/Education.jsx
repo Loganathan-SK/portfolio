@@ -3,8 +3,8 @@ export default function Education(){
         <div>
             <br />
             <div className="block-div">
-                <h2 id="block">Batch : 2024</h2>
-                <h2 id="block">Roll Number : 2001118</h2>
+                <h2 id="block1">Batch : 2024</h2>
+                <h2 id="block2">Roll Number : 2001118</h2>
             </div>
             <div id="education">
                 <table>

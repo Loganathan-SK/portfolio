@@ -7,26 +7,26 @@ export default function Projects(){
                 <li>
                     <h4>Project Management App - React</h4>
                     <h5>Github &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://github.com/Loganathan-SK/Project-Management-App" target="_blank" rel="noopener noreferrer">TaskFlow</a> </h5>
-                    <h5>App Link :&nbsp;&nbsp; <a href="https://task-flow-pro-365.web.app" target="_blank" rel="noopener noreferrer">https://task-flow-pro-365.web.app</a></h5>
+                    <h5>App Link :&nbsp;&nbsp; <a href="https://task-flow-pro-365.web.app" target="_blank" rel="noopener noreferrer">task-flow-pro</a></h5>
                 </li>
                 <hr />
                 <li>
                     <h4>Quiz App - React</h4>
                     <h5>Github &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://github.com/Loganathan-SK/Project-Management-App" target="_blank" rel="noopener noreferrer">TaskFlow</a> </h5>
-                    <h5>App Link :&nbsp;&nbsp; <a href="https://task-flow-pro-365.web.app" target="_blank" rel="noopener noreferrer">https://task-flow-pro-365.web.app</a></h5>
+                    <h5>App Link :&nbsp;&nbsp; <a href="https://task-flow-pro-365.web.app" target="_blank" rel="noopener noreferrer">task-flow-pro</a></h5>
                 </li>
                 </ul>
                 <ul>
                 <li>
-                    <h4>Grocery Website - HTML, CSS, JavaScript</h4>
+                    <h4>Grocery Website - HTML, CSS</h4>
                     <h5>Github &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://github.com/Loganathan-SK/Project-Management-App" target="_blank" rel="noopener noreferrer">TaskFlow</a> </h5>
-                    <h5>App Link :&nbsp;&nbsp; <a href="https://task-flow-pro-365.web.app" target="_blank" rel="noopener noreferrer">https://task-flow-pro-365.web.app</a></h5>
+                    <h5>App Link :&nbsp;&nbsp; <a href="https://task-flow-pro-365.web.app" target="_blank" rel="noopener noreferrer">task-flow-pro</a></h5>
                 </li>
                 <hr />
                 <li>
-                    <h4>Admin DashBoard - HTML, CSS, JavaScript</h4>
+                    <h4>Admin DashBoard - HTML, CSS</h4>
                     <h5>Github &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://github.com/Loganathan-SK/Project-Management-App" target="_blank" rel="noopener noreferrer">TaskFlow</a> </h5>
-                    <h5>App Link :&nbsp;&nbsp; <a href="https://task-flow-pro-365.web.app" target="_blank" rel="noopener noreferrer">https://task-flow-pro-365.web.app</a></h5>
+                    <h5>App Link :&nbsp;&nbsp; <a href="https://task-flow-pro-365.web.app" target="_blank" rel="noopener noreferrer">task-flow-pro</a></h5>
                 </li>
                 </ul>
             </div>

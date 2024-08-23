@@ -1,11 +1,11 @@
 export default function Certifications(){
   return (
     <div id="certification">
-      <h3 id="h3">Certifications</h3>
+      <h2 id="h3">Certifications</h2>
       <div className="grid-container">
         <ul>
             <li>
-              <h3>React</h3>
+              <h3>React - (incl. TypeScript, Next.js, Redux)</h3>
               <h5>Platform: Udemy</h5>
               <h5>Certified on: July 11, 2024</h5>
               <h5><a href="https://ude.my/UC-5e540fad-5acc-4365-a4fd-853dd90bbf94" target="_blank" rel="noopener noreferrer">Verify</a></h5>

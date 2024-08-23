@@ -32,7 +32,7 @@ export default function Main(){
             <button onClick={() => setActiveComponent('projects')}><h2>Projects</h2></button>
             <button onClick={() => setActiveComponent('certifications')}><h2>Certification</h2></button>
             <button onClick={() => setActiveComponent('skills')}><h2>Skills</h2></button>
-            <button onClick={() => setActiveComponent('personalInfo')}><h2>Personal Info</h2></button>
+            <button onClick={() => setActiveComponent('personalInfo')}><h2>Info</h2></button>
             <div id="border">{renderComponent()}</div>
         </div>
     );
