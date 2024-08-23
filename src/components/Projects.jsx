@@ -13,20 +13,20 @@ export default function Projects(){
                 <li>
                     <h4>Quiz App - React</h4>
                     <h5>Github &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://github.com/Loganathan-SK/Project-Management-App" target="_blank" rel="noopener noreferrer">TaskFlow</a> </h5>
-                    <h5>App Link :&nbsp;&nbsp; <a href="https://task-flow-pro-365.web.app" target="_blank" rel="noopener noreferrer">task-flow-pro</a></h5>
+                    <h5>App Link :&nbsp;&nbsp; <a href="https://quiz-247-c6db5.web.app" target="_blank" rel="noopener noreferrer">quiz-zone</a></h5>
                 </li>
                 </ul>
                 <ul>
                 <li>
-                    <h4>Grocery Website - HTML, CSS</h4>
+                    <h4>Grocery Website - HTML, CSS, Javascript</h4>
                     <h5>Github &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://github.com/Loganathan-SK/Project-Management-App" target="_blank" rel="noopener noreferrer">TaskFlow</a> </h5>
-                    <h5>App Link :&nbsp;&nbsp; <a href="https://task-flow-pro-365.web.app" target="_blank" rel="noopener noreferrer">task-flow-pro</a></h5>
+                    <h5>App Link :&nbsp;&nbsp; <a href="https://grocebasket.web.app" target="_blank" rel="noopener noreferrer">grocebasket</a></h5>
                 </li>
                 <hr />
                 <li>
                     <h4>Admin DashBoard - HTML, CSS</h4>
                     <h5>Github &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://github.com/Loganathan-SK/Project-Management-App" target="_blank" rel="noopener noreferrer">TaskFlow</a> </h5>
-                    <h5>App Link :&nbsp;&nbsp; <a href="https://task-flow-pro-365.web.app" target="_blank" rel="noopener noreferrer">task-flow-pro</a></h5>
+                    <h5>App Link :&nbsp;&nbsp; <a href="https://dash-board-admin.web.app" target="_blank" rel="noopener noreferrer">admindashboard</a></h5>
                 </li>
                 </ul>
             </div>
