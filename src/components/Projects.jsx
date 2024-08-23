@@ -12,21 +12,21 @@ export default function Projects(){
                 <hr />
                 <li>
                     <h4>Quiz App - React</h4>
-                    <h5>Github &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://github.com/Loganathan-SK/Project-Management-App" target="_blank" rel="noopener noreferrer">TaskFlow</a> </h5>
+                    <h5>Github &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://github.com/Loganathan-SK/Quiz-App" target="_blank" rel="noopener noreferrer">Quiz-Zone</a> </h5>
                     <h5>App Link :&nbsp;&nbsp; <a href="https://quiz-247-c6db5.web.app" target="_blank" rel="noopener noreferrer">quiz-zone</a></h5>
                 </li>
                 </ul>
                 <ul>
                 <li>
                     <h4>Grocery Website - HTML, CSS, Javascript</h4>
-                    <h5>Github &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://github.com/Loganathan-SK/Project-Management-App" target="_blank" rel="noopener noreferrer">TaskFlow</a> </h5>
+                    <h5>Github &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://github.com/Loganathan-SK/Grocery-Website" target="_blank" rel="noopener noreferrer">Groce-Basket</a> </h5>
                     <h5>App Link :&nbsp;&nbsp; <a href="https://grocebasket.web.app" target="_blank" rel="noopener noreferrer">grocebasket</a></h5>
                 </li>
                 <hr />
                 <li>
                     <h4>Admin DashBoard - HTML, CSS</h4>
-                    <h5>Github &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://github.com/Loganathan-SK/Project-Management-App" target="_blank" rel="noopener noreferrer">TaskFlow</a> </h5>
-                    <h5>App Link :&nbsp;&nbsp; <a href="https://dash-board-admin.web.app" target="_blank" rel="noopener noreferrer">admindashboard</a></h5>
+                    <h5>Github &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="https://github.com/Loganathan-SK/Admin-Dashboard" target="_blank" rel="noopener noreferrer">Admin-DashBoard</a> </h5>
+                    <h5>App Link :&nbsp;&nbsp; <a href="https://dash-board-admin.web.app" target="_blank" rel="noopener noreferrer">admin-dashboard</a></h5>
                 </li>
                 </ul>
             </div>
